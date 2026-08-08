@@ -980,3 +980,22 @@
         align-items: flex-start;
     }
 }
+
+/* Final polish responsive */
+
+@media (max-width: 600px) {
+    .back-to-top {
+        right: 16px;
+        bottom: 16px;
+        width: 42px;
+        height: 42px;
+    }
+
+    .scroll-progress {
+        height: 2px;
+    }
+
+    .loader-logo {
+        font-size: 2.2rem;
+    }
+}
